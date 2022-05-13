@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    // To Manage your Docker container, images and volumes in VsCode
+    "ms-azuretools.vscode-docker",
+    // To get classes intellisense base global classes + your personnal config
+    "voorjaar.windicss-intellisense",
+    // Vue.js recommended extension
+    "johnsoncodehk.volar"
+  ]
+}

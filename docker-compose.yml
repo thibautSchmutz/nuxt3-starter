@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  nuxt3:
+    image: node:16-bullseye
+    working_dir: /app
+    container_name: nuxt3
+    entrypoint: ["/bin/bash", "-c", "yarn install --production=false && yarn dev"]
+    ports:
+      - 127.0.0.1:3000:3000
+      - 127.0.0.1:3001:3001
+      - 127.0.0.1:3330:3330
+      - 127.0.0.1:24678:24678
+    volumes:
+      - ${PWD}:/app/

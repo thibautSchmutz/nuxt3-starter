@@ -1,0 +1,8 @@
+{
+  "formatOnSave": true,
+  "requireConfig": true,
+  "tabWidth": 2,
+  "useEditorConfig": false,
+  "printWidth": 150,
+  "vueIndentScriptAndStyle": true
+}
